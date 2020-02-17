@@ -1,0 +1,280 @@
+/*LANDING PAGE WHERE YOU DECIDE IF YOU'RE A BOOMER OR WHAT!!!!!!!!*/
+.initLanding {
+    background-color: black;
+}
+
+.landingQuestion {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.landingSelector {
+    text-align: center;
+}
+
+.landingChoices {
+    display: inline;
+    width: 100vw;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.landingChoices a {
+    text-decoration: none;
+    color: red;
+}
+
+.landingChoices:hover{
+    background-color: gray;
+}
+
+
+/*END LANDING PAGE WHERE YOU DECIDE IF YOU'RE A BOOMER OR WHAT!!!!!!!!*/
+
+/*BEGIN LAYOUT TO CALL YOU A BOOMER!!!!!!!!!!!!!*/
+
+.okay {
+    background-color: black;
+}
+
+.boomer {
+    font-size: 130pt;
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*END LAYOUT TO CALL YOU A BOOMER!!!!!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR OVERALL INFO PAGES!!!!!!!!!!!*/
+
+.homeButton {
+    position: fixed;
+    padding: 8px;
+    background-color: black;
+}
+
+.homeArrow{
+    color: white;
+    text-decoration: none;
+}
+
+.homeArrow:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.landingMenu {
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    position: relative;
+    padding: 16px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li {
+	display:block;
+    /*width:120px;*/
+    font-size: 24pt;
+    display: inline;
+    text-align: left;
+    margin:5px;
+    text-decoration: white;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.link {
+    display: block;
+    /*justify-content: center;*/
+
+    text-decoration: white;
+}
+
+.link a {
+    text-decoration: white;
+    color: white;
+    background-color: black;
+}
+
+.link a:link {
+    text-decoration: white;
+    color: white;
+    background-color: black;
+}
+
+.link a:visited {
+    text-decoration: white;
+    color: white;
+    background-color: black;
+}
+
+.link a:hover {
+    color: black;
+    background-color: rgb(216, 216, 216);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 13pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*END LAYOUT FOR OVERALL INFO PAGES!!!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR HOME PAGE!!!!!!!!!!*/
+
+.landing {
+    background-image: url("https://media.newyorker.com/photos/5d3f11f92e2c910008a1c125/master/pass/Petrusich-Yelling.jpg");
+    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    /*padding: 32px;*/
+}
+
+.landingMenu {
+    margin: 0 0 0 auto;
+	width: 600px;
+    position: relative;
+    padding: 16px;
+    justify-content: center;
+}
+
+
+.heroTitle {
+    /*background-image: url("https://i.kym-cdn.com/photos/images/newsfeed/001/044/247/297.png");
+    filter: grayscale(100%);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 32px;*/
+    
+}
+
+.title {
+    font-size: 36pt;
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+}
+
+.subTitle {
+    font-size: 27pt;
+    text-align: center;
+    font-style: bold;
+    background-color: black;
+}
+
+.divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: black;
+    border: black;
+}
+
+.mainContainer {
+    padding-top: 50px;
+}
+
+.thumbnailContainer {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;  
+}
+
+.moreInfoLink {
+    text-decoration: none;
+}
+
+.moreInfoLink:hover {
+    text-decoration: red;
+}
+
+
+
+/*END LAYOUT FOR HOME PAGE!!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR MORE INFO PAGE!!!!!!!!!*/
+
+.infoTitle {
+    font-size: 36pt;
+    text-align: center;
+    font-style: italic;
+}
+
+.columnContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+    margin-right: 48px;
+    
+}
+
+.textColumn {
+    font-size: 15pt;
+}
+
+.thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.firstLetter {
+    font-size: 24pt;
+}
+
+.footer {
+
+}
+
+.footerLinks {
+    text-align: center;
+    font-size: 14pt;
+}
+
+.footLink {
+    color:black;
+    text-decoration: none;
+}
+
+.footLink:hover {
+    color:white;
+    background-color: black;
+}
+
+/*END LAYOUT FOR MORE INFO PAGE!!!!!!!!!*/
+
+/*BEGIN LAYOUT FOR TIMELINE PAGE!!!!!!!!!!*/
+
+.timeline {
+    list-style: none;
+}
+
+.time {
+    font-size: 20pt;
+    margin: 36px;
+
+}
+
+/*END LAYOUT FOR TIMELINE PAGE!!!!!!!!!!*/
